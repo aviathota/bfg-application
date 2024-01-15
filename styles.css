@@ -1,3 +1,58 @@
-/* Your Styles Here */
-body{
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image:url(assets/bg.gif); background-repeat:repeat;
 }
+
+@font-face {
+    font-family: 'DayDream';
+    src: url(assets/fonts/Daydream.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Minecraftia';
+    src: url(assets/fonts/Minecraftia-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.my-name {
+    font-family: 'DayDream', sans-serif;
+    font-size: large;
+  }   
+
+.container {
+    position: relative;
+  }
+  
+.content-box {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  } 
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    background-color: #3498db;
+    border: 8px solid #8993ff;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    background-image: url(assets/me.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .info-text {
+    margin-top: 20px;
+    font-family: 'Minecraftia', sans-serif;
+    font-size: small;
+  }   
